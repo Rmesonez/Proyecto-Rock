@@ -52,19 +52,19 @@ body{
 }*/
 
 .ac{
-    -moz-animation-name:  zoom;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-duration: 4s;
-    -moz-animation-play-state: running;
-    -moz-animation-direction: alternate;
-    -moz-animation-timing-function: linear;
+    animation-name:  zoom;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-play-state: running;
+    animation-direction: alternate;
+    animation-timing-function: linear;
 }
 
 .ac:hover{
-    -moz-animation-play-state: paused;
+    animation-play-state: paused;
 }
 
-@-moz-keyframes zoom{
+@keyframes zoom{
     0%{
         width: 90%;
         height: 200px;
@@ -106,19 +106,19 @@ body{
 }
 
 .linkin{
-    -moz-animation-name:  zoom1;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-duration: 4s;
-    -moz-animation-play-state: running;
-    -moz-animation-direction: alternate;
-    -moz-animation-timing-function: linear;   
+    animation-name:  zoom1;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-play-state: running;
+    animation-direction: alternate;
+    animation-timing-function: linear;   
 }
 
 .linkin:hover{
-    -moz-animation-play-state: paused;
+    animation-play-state: paused;
 }
 
-@-moz-keyframes zoom1{
+@keyframes zoom1{
     0%{
         width: 90%;
         height: 200px;
@@ -160,19 +160,19 @@ body{
 }
 
 .iron{  
-    -moz-animation-name:  zoom2;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-duration: 4s;
-    -moz-animation-play-state: running;
-    -moz-animation-direction: alternate;
-    -moz-animation-timing-function: linear; 
+    animation-name:  zoom2;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-play-state: running;
+    animation-direction: alternate;
+    animation-timing-function: linear; 
 }
 
 .iron:hover{
-    -moz-animation-play-state: paused;
+    animation-play-state: paused;
 }
 
-@-moz-keyframes zoom2{
+@keyframes zoom2{
     0%{
         width: 90%;
         height: 200px;
@@ -214,19 +214,19 @@ body{
 }
 
 .aero{  
-    -moz-animation-name:  zoom3;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-duration: 4s;
-    -moz-animation-play-state: running;
-    -moz-animation-direction: alternate;
-    -moz-animation-timing-function: linear; 
+    animation-name:  zoom3;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-play-state: running;
+    animation-direction: alternate;
+    animation-timing-function: linear; 
 }
 
 .aero:hover{
-    -moz-animation-play-state: paused;
+    animation-play-state: paused;
 }
 
-@-moz-keyframes zoom3{
+@keyframes zoom3{
     0%{
         width: 90%;
         height: 200px;
@@ -268,19 +268,19 @@ body{
 }
 
 .nirvan{  
-    -moz-animation-name:  zoom4;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-duration: 4s;
-    -moz-animation-play-state: running;
-    -moz-animation-direction: alternate;
-    -moz-animation-timing-function: linear; 
+    animation-name:  zoom4;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-play-state: running;
+    animation-direction: alternate;
+    animation-timing-function: linear; 
 }
 
 .nirvan:hover{
-    -moz-animation-play-state: paused;
+    animation-play-state: paused;
 }
 
-@-moz-keyframes zoom4{
+@keyframes zoom4{
     0%{
         width: 90%;
         height: 200px;
@@ -322,19 +322,19 @@ body{
 }
 
 .metallic{  
-    -moz-animation-name:  zoom5;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-duration: 4s;
-    -moz-animation-play-state: running;
-    -moz-animation-direction: alternate;
-    -moz-animation-timing-function: linear; 
+    animation-name:  zoom5;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-play-state: running;
+    animation-direction: alternate;
+    animation-timing-function: linear; 
 }
 
 .metalic:hover{
-    -moz-animation-play-state: paused;
+    animation-play-state: paused;
 }
 
-@-moz-keyframes zoom5{
+@keyframes zoom5{
     0%{
         width: 90%;
         height: 200px;
